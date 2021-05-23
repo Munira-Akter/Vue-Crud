@@ -1,6 +1,6 @@
 * {
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(24, 24, 24);
 }
 
@@ -60,7 +60,7 @@ input[type="submit"] {
 }
 
 .box {
-    height: 90vh;
+    height: 92vh;
     width: 100%;
     background: #fff;
     margin-top: 50px;
