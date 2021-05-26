@@ -42,6 +42,29 @@ input[type="submit"] {
 .wrap-table table tr td {
     vertical-align: middle !important;
     padding: 3px 5px;
+    font-size: 13px;
+}
+
+.cusom-crud {
+    position: absolute !important;
+    width: 60vw !important;
+    height: 100vh !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 9999;
+}
+
+.slide-leave-active,
+.slide-enter-active {
+    transition: 1s !important;
+}
+
+.slide-enter {
+    transform: translate(100%, 0) !important;
+}
+
+.slide-leave-to {
+    transform: translate(-100%, 0) !important;
 }
 
 .wrap-table table tr td img {
@@ -127,4 +150,8 @@ input[type="submit"] {
     /* Green background */
     cursor: pointer;
     /* Cursor on hover */
+}
+
+.danger {
+    background-color: red;
 }
